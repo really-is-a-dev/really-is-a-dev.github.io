@@ -18,7 +18,8 @@
   font-family: 'fixedsys_excelsior_3.01Rg', sans-serif;
 }
 
-html, body {
+html,
+body {
   margin: 0 auto;
   background: var(--background);
   background-attachment: fixed;
@@ -56,16 +57,11 @@ header > img.emoji {
   width: 2rem;
   margin-left: 5px;
 }
-p.headline {
-  font-size: 1.4rem;
-}
-p.subheadline {
-  font-size: 1.2rem;
-}
-p.credits {
-  font-size: 1.1rem;
-}
+
+p.headline {font-size: 1.4rem;}
+p.subheadline {font-size: 1.2rem;}
+p.credits {font-size: 1.1rem;}
+
 a:link {color: var(--link-color);}
 a:visited {color: var(--link-color);}
 a:hover {color: var(--color);}
-a:active {color: var(--active-color);}
