@@ -65,3 +65,9 @@ p.credits {font-size: 1.1rem;}
 a:link {color: var(--link-color);}
 a:visited {color: var(--link-color);}
 a:hover {color: var(--color);}
+
+div.start {
+  border: 1px dotted var(--link-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
