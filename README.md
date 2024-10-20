@@ -7,7 +7,7 @@
 
   `really.is-a.dev` offers free nested sub-domains like `ukriu.really.is-a.dev`!
 
-  To get your own, contact @ukriu on [Discord](https://discord.com/users/586962558435590154) or other platform with your requested domain and records.
+  To get your own, contact [@ukriu](https://github.com/ukriu) on [Discord](https://discord.com/users/586962558435590154) or other platform with your requested domain and records.
 
   Thanks to `is-a.dev` for providing free sub-domains! Register your `is-a.dev` subdomain on their [GitHub](https://github.com/is-a-dev/register).
 </div>
