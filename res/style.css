@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'fixedsys_excelsior_3.01Rg';
+  src: url('media/font.woff2') format('woff2'), url('media/font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font: 'fixedsys_excelsior_3.01Rg', sans-serif;
+  --color: lavenderblush;
+  --highlight-color: #db6482;
+  --link-color: #d12e56;
+  --background: #1c0b0f;
+  --highlight-background: ;
+  font-size: 1rem;
+  color: lavenderblush;
+  font-family: 'fixedsys_excelsior_3.01Rg', sans-serif;
+}
+
+html, body {
+  margin: 0 auto;
+  background: var(--background);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 800px) {
+  body {
+    max-width: 90%;
+  }
+}
+
+code {
+  font-family: var(--font);
+  color: var(--highlight-color);
+}
+
+header {
+  flex-shrink: 0;
+  width: 100%;
+  min-height: 50px;
+  z-index: 1000;
+  font-size: 3rem;
+}
+header > img.emoji {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 5px;
+}
+p.headline {
+  font-size: 1.4rem;
+}
+p.subheadline {
+  font-size: 1.2rem;
+}
+p.credits {
+  font-size: 1.1rem;
+}
+a:link {color: var(--link-color);}
+a:visited {color: var(--link-color);}
+a:hover {color: var(--color);}
+a:active {color: var(--active-color);}
