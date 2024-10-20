@@ -33,6 +33,7 @@ body {
   max-width: 750px;
   justify-content: center;
   align-items: center;
+  padding: 4rem;
 }
 @media screen and (max-width: 800px) {
   body {
@@ -70,4 +71,14 @@ div.start {
   border: 1px dotted var(--link-color);
   border-radius: 1rem;
   padding: 1rem;
+}
+
+::-moz-selection {
+  color: var(--highlight-color);
+  background: var(--color);
+}
+
+::selection {
+  color: var(--highlight-color);
+  background: var(--color);
 }
