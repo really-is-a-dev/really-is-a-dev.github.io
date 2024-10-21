@@ -13,7 +13,7 @@
   --link-color: #d12e56;
   --background: #1c0b0f;
   --highlight-background: ;
-  font-size: 1rem;
+  font-size: 16px;
   color: lavenderblush;
   font-family: 'fixedsys_excelsior_3.01Rg', sans-serif;
 }
@@ -21,24 +21,28 @@
 html,
 body {
   margin: 0 auto;
+  height: 100%;
   background: var(--background);
   background-attachment: fixed;
   background-size: cover;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
   max-width: 750px;
+  display: grid;
+  place-items: center;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
 }
 @media screen and (max-width: 800px) {
   body {
     max-width: 90%;
   }
+}
+
+div.maingrid {
+  height: fit-content;
+  width: fit-content;
 }
 
 code {
@@ -47,13 +51,10 @@ code {
 }
 
 header {
-  flex-shrink: 0;
   width: 100%;
-  min-height: 50px;
-  z-index: 1000;
   font-size: 3rem;
 }
-header > img.emoji {
+img.emoji {
   height: 2rem;
   width: 2rem;
   margin-left: 5px;
