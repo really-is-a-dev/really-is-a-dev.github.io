@@ -29,8 +29,7 @@ body {
 
 body {
   max-width: 750px;
-  display: grid;
-  place-items: center;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -43,6 +42,7 @@ body {
 div.maingrid {
   height: fit-content;
   width: fit-content;
+  margin: 0 auto;
 }
 
 code {
